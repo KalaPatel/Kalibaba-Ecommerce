@@ -42,10 +42,6 @@ const Navbar = ({ setEndpointValue, cartProduct, setCartOpen }) => {
             : cartProduct.length}
         </div>
       </div>
-      {/* {cartOpen && (
-        <CartList cartProduct={cartProduct} setCartProduct={setCartProduct} />
-      )}
-      <ModalCart cartProduct={cartProduct} /> */}
     </div>
   );
 };
