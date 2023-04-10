@@ -1,0 +1,37 @@
+.ModalCart {
+  display: flex;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(122, 115, 115, 0.255);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.productCartImg img {
+  width: 60px;
+  height: 40px;
+}
+
+.productCartInfo h4,
+.productCartInfo p,
+.qtySection p {
+  margin: 0;
+}
+
+.lessBtn,
+.plusBtn {
+  border: none;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 18px;
+  font-weight: bold;
+}
+
+.lessBtn {
+  background-color: tomato;
+}
+
+.plusBtn {
+  background-color: #77dd77;
+}

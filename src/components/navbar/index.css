@@ -1,0 +1,82 @@
+.Navbar {
+  position: fixed;
+  display: flex;
+  z-index: 1;
+  width: 100%;
+  padding: 0 50px;
+  align-items: center;
+  background-color: #ebbe9b;
+  height: 80px;
+  background-image: linear-gradient(315deg, #ebbe9b 0%, #e7a977 74%);
+}
+
+.navName {
+  display: none;
+}
+
+.Navbar input {
+  width: 150px;
+  padding: 12px 24px;
+  border: 0;
+  border-radius: 6px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+  outline: none;
+  margin-right: 10px;
+}
+
+.submitBtn {
+  background-color: #fff5ee;
+  box-shadow: 2px 2px 2px #4a2204;
+  border: 0;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.submitBtn:hover {
+  box-shadow: inset 1px 1px 2px #4a2204;
+}
+.cartIconMenu {
+  position: absolute;
+  top: 20%;
+  right: 3%;
+  color: white;
+  font-size: bold;
+  cursor: pointer;
+  font-size: 2.5rem;
+  transition: all 0.35;
+}
+.cartIconMenu:hover {
+  color: #77dd77;
+  transform: scale(1.2);
+}
+
+.productCartNum {
+  position: absolute;
+  background-color: tomato;
+  color: white;
+  font-weight: bold;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  top: 13%;
+  right: 2%;
+}
+
+@media screen and (min-width: 530px) {
+  .Navbar {
+    padding: 0 30px;
+  }
+  .navName {
+    display: block;
+    color: white;
+    width: 40%;
+  }
+  form {
+    width: 60%;
+  }
+  .Navbar input {
+    width: 180px;
+  }
+}

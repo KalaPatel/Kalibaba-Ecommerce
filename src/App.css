@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo&family=Raleway:wght@400;700&family=Rock+Salt&display=swap");
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+.App__miniCards {
+  display: flex;
+  gap: 10px;
+
+  overflow-x: scroll;
+  display: flex;
+  justify-content: center;
+}
+
+::-webkit-scrollbar {
+  height: 6px;
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: rgba(244, 243, 238, 0.933);
+}
+
+::-webkit-scrollbar-thumb {
+  border-top-right-radius: 2px;
+  background: #f9ab6f;
+}
