@@ -1,5 +1,4 @@
 import "./index.css";
-import { useState } from "react";
 import { shortProductDetail } from "../../utils/func";
 
 const ModalCart = ({ cartData, setCartProduct, setTotalQty }) => {

@@ -1,9 +1,9 @@
 import { useState } from "react";
 import Hero from "./components/hero";
-import Footer from "./components/footer/Footer";
+import Footer from "./components/footer";
 import CardList from "./components/cardList";
 import Navbar from "./components/navbar";
-import MiniCardList from "./components/miniCardList/MiniCardList";
+import MiniCardList from "./components/miniCardList";
 import CartList from "./components/cartList";
 import "./App.css";
 
